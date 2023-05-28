@@ -1,0 +1,50 @@
+*{
+	margin:0;
+	padding:0;
+	border-radius:0;
+	text-decoration:none;
+	box-sizing:border-box;
+}
+
+body{
+	background-color:#394867;
+	width:100vw;
+	height:100vh;
+}
+
+.content {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.content #cronograma{
+    color:#ffffff;
+}
+
+#event-list {
+    text-align:center;
+    background-color:#212A3E;
+    width:80vw;
+    height:16vh;
+}
+
+#event-list #event_title {
+    margin-top:.7rem;
+    font-size:1rem;
+    color:#ffffff;
+    
+}
+#event-list p {
+    color:#F1F6F9;
+}
+
+#event-dp {
+    color:#ffffff;
+    font-size:.8rem;
+}
+
+.event-spacing {
+    margin-bottom:.7rem;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBpGx1FIhlHzmfumkpRyYa95abtdDhQMHc",
+    authDomain: "andatabaseteste.firebaseapp.com",
+    projectId: "andatabaseteste",
+    storageBucket: "andatabaseteste.appspot.com",
+    messagingSenderId: "555259860964",
+    appId: "1:555259860964:web:2560767fb3730bcdf699f1",
+    measurementId: "G-42BXR0L6PG"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+    </script>
+		<meta chaset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" href="../static/css/style.css">
+	</head>
+	<body>
+		<div class="content">
+			<h2 id="cronograma">CRONOGRAMA</h2><br>
+<!---			{% for event in databaseList %} --->
+			    <section id="event-list">
+			<!---    {{event | safe}} --->
+			    <h3 id="event_title" class="event-spacing">adpMaracana 6Anicer</h3>
+			    <h3 id="event-dp" class="event-spacing">ADP | Maracana</h3>
+			    <p>10/06/23 | 18:30 horas</p>
+			</section>
+			<br>
+	<!---	{% endfor %} --->
+		</div>		
+		<script src="./js/script.js"></script>
+	</body>
+</html>
+
